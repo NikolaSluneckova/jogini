@@ -1,13 +1,52 @@
+
+.container {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-flow: row wrap;
+}
 header {
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
   align-items: center;
-  margin-top: 4rem;
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(../img/rocket.svg);
-  background-size: contain;
+.site-title {
+  color: #e56c19;
+  font-weight: 900;
+}
+
+.odkaz {
+  display: inline-block;
+  padding: 0 1rem 0 1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #777;
+}
+
+.odkaz:hover {
+  color: black;
+}
+
+.intro {
+  width: 50%;
+}
+
+.intro h2 {
+  font-weight: 300;
+  font-size: 3rem;
+  color: black;
+}
+
+.pose {
+  padding: 2rem;
+  width: 50%;
+  height: auto;
+  align-self: flex-start;
+}
+
+p {
+  line-height: 150%;
 }

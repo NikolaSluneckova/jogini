@@ -1,5 +1,5 @@
 import './index.css'
-import { Header } from '../Header'
+import { Header } from './Header'
 import { Intro } from './Intro'
 import { Pose } from './Pose'
 import logoYoga from '../../img/yoga-pose.jpg'

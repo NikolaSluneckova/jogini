@@ -1,3 +1,5 @@
+import './index.css'
+
 export const Intro = (props) => {
     return (
         <div className="intro">
